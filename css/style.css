@@ -1,0 +1,103 @@
+
+        body{
+            background-color:rosybrown;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        nav{
+            background-color:wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+          display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+         margin: 0 20px ;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color:saddlebrown;
+            color:azure;
+
+        }
+        .error-decor{
+            background-image: url("https://cdn.pixabay.com/photo/2017/08/18/12/23/building-2654823_640.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 570px;
+            border-radius: 15px;
+            margin: 20px;
+        }
+        .section-one{
+            background-color: blanchedalmond;
+            align-items: center;
+            background-size: cover;
+
+
+
+
+
+        }
+ .about-us{
+            background-color: peachpuff;
+            height: 60px;
+
+        }
+        .decor{
+            background-color: burlywood;
+            height: 60px;
+        }
+        .white{
+            background-color: darkslategray;
+            height: 60px;
+        }
+        .repr{
+            background-color: teal;
+            height: 60px;
+        }
+        .grey{
+            background-color: cadetblue;
+            height: 60px;
+        }
+        #one{
+            background-color: red;
+            height: 60px;
+            #two{
+                background-color: blue;
+                height: 60px;
+            }
+        }
+        .image-one img{
+            height: 70vh;
+            width: 260px;
+        }
+        .image-two img{
+              height: 10vh;
+            width: 200px;
+        }
+        .image-three img{
+              height: 60vh;
+            width: 300px;
+        }
+        .image-four img{
+               height: 50vh;
+            width: 350px;
+        }
